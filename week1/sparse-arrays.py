@@ -18,6 +18,17 @@ import sys
 def matchingStrings(strings, queries):
     # Write your code here
     return [len([x for x in strings if x == i]) for i in queries]
+
+    # code logic:
+    
+    # create the array to hold the occurrences
+    # result = []
+    # iterate through the queries array
+    # for i in queries:
+    #     # use list comprehension to append all the occurrencies
+    #     # in the strings array of the query element
+    #     result.append(len([x for x in strings if x == i]))
+    # return result
             
 
 if __name__ == '__main__':
