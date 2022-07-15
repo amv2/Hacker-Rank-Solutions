@@ -17,11 +17,7 @@ import sys
 
 def matchingStrings(strings, queries):
     # Write your code here
-    result = []
-    for i in queries:
-        # 
-        result.append(len([x for x in strings if x == i]))
-    return result
+    return [len([x for x in strings if x == i]) for i in queries]
             
 
 if __name__ == '__main__':
