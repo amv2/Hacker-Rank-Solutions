@@ -1,1 +1,1 @@
-# hr-3monthprep-solutions
+# Hacker Rank 3 month prep program Solutions
